@@ -1,8 +1,25 @@
 aid: optoatmospherics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optoatmospherics.png
 name: OptoAtmospherics
-description: OptoAtmospherics is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: OptoAtmospherics, Inc. is an Ann Arbor, Michigan company (founded 2009, spun out of Michigan
+  Aerospace Corporation) that develops UV-based Light Detection and Ranging (LIDAR) systems for the wind
+  energy industry. Its laser-based atmospheric measurement products deliver continuous wind speed, direction,
+  temperature, and density reporting from turbine-mounted or ground-based platforms, with real-time detection
+  of wind gusts, shear, and turbulence to improve site assessment, increase energy output, and protect
+  turbine equipment. The business is a hardware and atmospheric-sensing venture; it exposes no public
+  developer API, SDK, or software platform. Its former domain (optoatmospherics.com) is now parked/for-sale
+  and the product line lives on under michiganaerospace.com/optoatmospherics/.
 url: https://raw.githubusercontent.com/api-evangelist/optoatmospherics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,26 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-enrichment-note: 'LIDAR/atmospheric-sensing hardware company; no public API, SDK, docs, or event surface
+  found. Own domain (optoatmospherics.com) is parked/for-sale; product line hosted under Michigan Aerospace.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- LIDAR
+- Atmospheric Sensing
+- Wind Energy
+- Remote Sensing
+- Hardware
+- Michigan Aerospace
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
