@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-api-surface: none
 x-enrichment-note: 'LIDAR/atmospheric-sensing hardware company; no public API, SDK, docs, or event surface
   found. Own domain (optoatmospherics.com) is parked/for-sale; product line hosted under Michigan Aerospace.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
